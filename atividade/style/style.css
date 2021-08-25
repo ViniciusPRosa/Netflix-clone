@@ -1,0 +1,104 @@
+:root{
+	--vermelho:#E61015;
+	--preto:#121212;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	
+}
+
+body{
+	background: var(--preto);
+	font-family: 'Times New Roman', Times, Serif;
+	color: #ddd;
+	
+}
+
+.logo {
+	color: var(--vermelho);
+	font-family: 'Arial Black', Times;
+	font-size: 38px;
+	margin-left: 4px;
+}
+
+header .container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header nav a {
+	text-decoration: none;
+	color: #AAA;
+	margin-right: 10px;
+}
+
+header nav a:hover{
+	color: #fff;
+}
+
+.filme_principal{
+    font-size:16px;
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/final-fantasy-12.png');
+    height:400px;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme_principal .descricao{
+	margin-top:10px;
+	margin-bottom:40px;
+}
+.filme_principal .titulo{
+	 font-family: 'Trebuchet MS', Arial, sans-serif;
+	font-size: 40px;
+	
+}
+
+.filme_principal .botao{
+	border:none;
+	padding:15px 12px;
+	margin-left: 10px;
+	background-color:rgba(0,0,0,.50);
+	color:#fff;
+	cursor:pointer;
+	transition: .3s ease all;
+}
+
+.filme_principal .botao:hover{
+	color:#121212;
+	background-color:#fff
+}
+
+.filme_principal .container{
+    width: 60%;
+}
+
+.filme_principal .botao i{
+	margin-left:6px;
+}
+
+.container{
+	margin-left: 2%;
+}
+
+.box_film{
+	cursor: pointer;
+	display:block;
+}
+
+.carrosel_filmes{
+	margin-top:10px;
+}
+
+.titulo_carrosel{
+	margin: 5px;
+	font-family: 'Arial Black', Arial;
+}
